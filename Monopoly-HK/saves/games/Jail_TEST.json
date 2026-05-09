@@ -1,0 +1,191 @@
+{
+    "save_name": "Current_In_Jail",
+    "save_time": "13:33 14-11-2024",
+    "_turn": 0,
+    "remove_last_round": false,
+    "current_round": 7,
+    "gameboard_data": {
+        "board_name": "",
+        "gameboard_setup": [
+            {
+                "name": "Go",
+                "board_pos": 0,
+                "tile_type": "go",
+                "pass_prize": 150
+            },
+            {
+                "name": "Central",
+                "board_pos": 1,
+                "tile_type": "property",
+                "price": 800,
+                "rent": 90,
+                "owner": null,
+                "color": "cyan"
+            },
+            {
+                "name": "Wan Chai",
+                "board_pos": 2,
+                "tile_type": "property",
+                "price": 700,
+                "rent": 65,
+                "owner": null,
+                "color": "cyan"
+            },
+            {
+                "name": "Income Tax",
+                "board_pos": 3,
+                "tile_type": "income_tax",
+                "tax_percentage": 10
+            },
+            {
+                "name": "Stanley",
+                "board_pos": 4,
+                "tile_type": "property",
+                "price": 600,
+                "rent": 60,
+                "owner": null,
+                "color": "cyan"
+            },
+            {
+                "name": "Jail",
+                "board_pos": 5,
+                "tile_type": "jail",
+                "jailed_players": [
+                    "QehrwnRBSA"
+                ]
+            },
+            {
+                "name": "Shek-O",
+                "board_pos": 6,
+                "tile_type": "property",
+                "price": 400,
+                "rent": 10,
+                "owner": "QehrwnRBSA",
+                "color": "red"
+            },
+            {
+                "name": "Mong Kok Li",
+                "board_pos": 7,
+                "tile_type": "property",
+                "price": 500,
+                "rent": 40,
+                "owner": null,
+                "color": "red"
+            },
+            {
+                "name": "Chance",
+                "board_pos": 8,
+                "tile_type": "chance"
+            },
+            {
+                "name": "Tsing Yi",
+                "board_pos": 9,
+                "tile_type": "property",
+                "price": 400,
+                "rent": 15,
+                "owner": null,
+                "color": "red"
+            },
+            {
+                "name": "Free Parking",
+                "board_pos": 10,
+                "tile_type": "free_parking"
+            },
+            {
+                "name": "Shatin",
+                "board_pos": 11,
+                "tile_type": "property",
+                "price": 700,
+                "rent": 75,
+                "owner": null,
+                "color": "grey"
+            },
+            {
+                "name": "Chance",
+                "board_pos": 12,
+                "tile_type": "chance"
+            },
+            {
+                "name": "Tuen Mun",
+                "board_pos": 13,
+                "tile_type": "property",
+                "price": 400,
+                "rent": 20,
+                "owner": "TbGCvnnqYX",
+                "color": "grey"
+            },
+            {
+                "name": "Tai Po",
+                "board_pos": 14,
+                "tile_type": "property",
+                "price": 500,
+                "rent": 25,
+                "owner": null,
+                "color": "grey"
+            },
+            {
+                "name": "Go To Jail",
+                "board_pos": 15,
+                "tile_type": "go_to_jail"
+            },
+            {
+                "name": "Sai Kung",
+                "board_pos": 16,
+                "tile_type": "property",
+                "price": 400,
+                "rent": 10,
+                "owner": null,
+                "color": "yellow"
+            },
+            {
+                "name": "Yuen Long",
+                "board_pos": 17,
+                "tile_type": "property",
+                "price": 400,
+                "rent": 25,
+                "owner": null,
+                "color": "yellow"
+            },
+            {
+                "name": "Chance",
+                "board_pos": 18,
+                "tile_type": "chance"
+            },
+            {
+                "name": "Tai O",
+                "board_pos": 19,
+                "tile_type": "property",
+                "price": 600,
+                "rent": 25,
+                "owner": "TbGCvnnqYX",
+                "color": "yellow"
+            }
+        ]
+    },
+    "players_list": [
+        {
+            "_username": "QehrwnRBSA",
+            "_current_money": 1100,
+            "_jail_status": true,
+            "_fine_payed": false,
+            "_current_square": 5,
+            "_in_jail_turns": 3,
+            "_properties": [
+                "Shek-O"
+            ]
+        },
+        {
+            "_username": "TbGCvnnqYX",
+            "_current_money": 560,
+            "_jail_status": false,
+            "_fine_payed": false,
+            "_current_square": 19,
+            "_in_jail_turns": 0,
+            "_properties": [
+                "Tuen Mun",
+                "Tai O"
+            ]
+        }
+    ],
+    "broke_list": []
+}
